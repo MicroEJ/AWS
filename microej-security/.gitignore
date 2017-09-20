@@ -1,0 +1,6 @@
+/bin/
+_*
+filesystem/
+src/.generated~/
+/target~/
+.settings/
