@@ -91,6 +91,7 @@ If you have any trouble, the AWS IoT full documentation can be found [here](http
 	
 ## Getting ready with the application configuration
 - in order to find your broker host, go to your AWS IoT Console, click on `Manage` > `Things` and select your Thing previously created. Then click on `Interact` and the broker host is shown under the HTTPS section and should look like this : `{myowndomainid}.amazonaws.com`
+- your host `{myowndomainid}.amazonaws.com` may have `-ats` in its path, if so, remove it. `xxxxxxxxxx-ats.iot.yyyyyyyyy.amazonaws.com` => `xxxxxxxxxx.iot.yyyyyyyyy.amazonaws.com`.
 - configure your information in `[worspace.dir]/com.microej.demo.aws.iot/src/main/java/com/microej/demo/aws/iot/Config.java` :
 	- your MQTT AWS broker host and port :
 		```
@@ -140,6 +141,15 @@ The traces should look like this :
 [INFO] Message received on topic awsiot/demo/sample => with
 [INFO] Message received on topic awsiot/demo/sample => AWS IoT
 ```
+
+## AWS IoT dashboard
+The AWS IoT console provides some tools to monitor the activity on the broker. 
+- go in the `Monitor` section of the console to see graphs of successful connections to the broker and statistics on the messaging.
+You can also subscribe on a topic through the console in order to see arriving messages from your device: 
+- go to `Test`
+- in the `Subscription topic` section, indicate the topic to subscribe to, here `awsiot/demo/sample`
+- click on `Subscribe to topic`
+- when the application is running, you should see messages displayed in the AWS IoT console
 
 # References
 
