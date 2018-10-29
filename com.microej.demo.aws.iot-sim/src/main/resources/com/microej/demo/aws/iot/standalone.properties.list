@@ -1,0 +1,8 @@
+# Properties
+#
+# Copyright 2018 IS2T. All rights reserved.
+# For demonstration purpose only.
+# IS2T PROPRIETARY. Use is subject to license terms.
+
+# Declare the MockedNetworkManager class as the implementation of INetworkManager service.
+com.microej.demo.aws.iot.INetworkManager=com.microej.demo.aws.iot.MockedNetworkManager
