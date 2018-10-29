@@ -1,0 +1,14 @@
+#
+# Copyright 2017-2018 IS2T. All rights reserved.
+# IS2T PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+#
+
+certificates/aws.iot.demo.client.certificates.list
+certificates/aws.iot.demo.device.certificates.properties
+
+certificates/device/myprivate.der
+certificates/device/mycertificate.pem.crt
+
+certificates/client/VeriSignClass3PublicPrimaryCertificationAuthority-G5.crt
+certificates/client/GlobalSignRootCA.crt
+certificates/client/DigiCertBaltimoreCA-2G2.crt
