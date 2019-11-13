@@ -3,5 +3,4 @@
 
 # Place your client certificates here for the default SSL context
 /certificates/client/VeriSignClass3PublicPrimaryCertificationAuthority-G5.crt
-/certificates/client/GlobalSignRootCA.crt
-/certificates/client/DigiCertBaltimoreCA-2G2.crt
+/certificates/client/Amazon-IoT.crt
