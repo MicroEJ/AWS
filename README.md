@@ -91,7 +91,6 @@ If you have any trouble, the AWS IoT full documentation can be found [here](http
 	
 ## Getting ready with the application configuration
 - in order to find your broker host, go to your AWS IoT Console, click on `Manage` > `Things` and select your Thing previously created. Then click on `Interact` and the broker host is shown under the HTTPS section and should look like this : `{myowndomainid}.amazonaws.com`
-- your host `{myowndomainid}.amazonaws.com` may have `-ats` in its path, if so, remove it. `xxxxxxxxxx-ats.iot.yyyyyyyyy.amazonaws.com` => `xxxxxxxxxx.iot.yyyyyyyyy.amazonaws.com`.
 - configure your information in `[worspace.dir]/com.microej.demo.aws.iot/src/main/java/com/microej/demo/aws/iot/Config.java` :
 	- your MQTT AWS broker host and port :
 		```
@@ -159,8 +158,7 @@ You can also subscribe on a topic through the console in order to see arriving m
 - [AWS IoT documentation](https://docs.aws.amazon.com/iot/latest/developerguide/iot-console-signin.html) 
 - [OpenSSL](https://www.openssl.org/source/)
 
-<!--
-	Markdown
-	Copyright 2018 IS2T. All rights reserved.
-	IS2T PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
--->
+---  
+_Markdown_   
+_Copyright 2018-2019 MicroEJ Corp. All rights reserved._   
+_Use of this source code is governed by a BSD-style license that can be found with this software._   
