@@ -20,8 +20,7 @@ N/A
 # Restrictions
 None.
 
-<!--
-	Markdown
-	Copyright 2018 IS2T. All rights reserved.
-	IS2T PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
--->
+---  
+_Markdown_   
+_Copyright 2018-2019 MicroEJ Corp. All rights reserved._   
+_Use of this source code is governed by a BSD-style license that can be found with this software._   -->

@@ -159,8 +159,7 @@ You can also subscribe on a topic through the console in order to see arriving m
 - [AWS IoT documentation](https://docs.aws.amazon.com/iot/latest/developerguide/iot-console-signin.html) 
 - [OpenSSL](https://www.openssl.org/source/)
 
-<!--
-	Markdown
-	Copyright 2018 IS2T. All rights reserved.
-	IS2T PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
--->
+---  
+_Markdown_   
+_Copyright 2018-2019 MicroEJ Corp. All rights reserved._   
+_Use of this source code is governed by a BSD-style license that can be found with this software._   -->
