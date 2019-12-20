@@ -8,7 +8,16 @@ Import this project and use the AWS IoT PubSub Demo [SIM] Launcher.
 
 # Requirements
 
-  - EDC-1.2 or higher
+This example has been tested on:
+
+* MicroEJ SDK 5.1
+* With a platform that contains:
+    * EDC-1.2
+    * BON-1.3
+    * NET-1.1
+    * SSL-2.1
+    * ECOM-WIFI-2.1
+    * ECOM-NETWORK-2.0
 
 # Dependencies
 

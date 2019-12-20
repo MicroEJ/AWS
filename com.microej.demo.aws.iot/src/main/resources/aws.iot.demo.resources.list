@@ -7,6 +7,5 @@ certificates/aws.iot.demo.device.certificates.properties
 certificates/device/myprivate.der
 certificates/device/mycertificate.pem.crt
 
+certificates/client/Amazon-IoT.crt
 certificates/client/VeriSignClass3PublicPrimaryCertificationAuthority-G5.crt
-certificates/client/GlobalSignRootCA.crt
-certificates/client/DigiCertBaltimoreCA-2G2.crt
