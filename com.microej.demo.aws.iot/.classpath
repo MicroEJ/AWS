@@ -3,10 +3,5 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=com.microej.demo.aws.iot.firmware.update&amp;ivyXmlPath=module.ivy&amp;confs=*"/>
-	<classpathentry kind="src" path="src-adpgenerated/junit/java">
-		<attributes>
-			<attribute name="addonProcessorKind" value="generatedJava"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
